@@ -1,0 +1,57 @@
+Clase 7 Pruebas y Depuracion:
+
+Las pruebas son parte importante y sirven para verificar el funcionaiento del codigo
+La depuracion sirve para encontrar un error dentro del codigo
+
+Pruebas unitarias:
+Prueban el codigo o una porcion del mismo
+Pruebas de integracion:
+Pruebas orientadas a la A.P.I
+Pruebas de Aceptacion:
+Validan que la api cumpla con los requisitos del cliente
+
+
+Herramientas para hacer pruebas en NodeJs:
+Mocha - Chai, son dos librerias que trabajan en conjunto.
+se crean 'Mockapps' para simular 
+
+Jest:
+Es un framework, tiene una sintaxis sencilla y ejecucion rapida
+
+
+Cobertura de Pruebas:
+Es una metrica que mide el grado en el que el codigo fuente de la app esta cubierto por pruebas automa
+
+
+
+Test - Driven - Developtment:
+Es una practica de desarrollo en pruebas en cual las pruebas unitarias se escriben antes de implementar la funcionalidad.
+Pruebas Red - Green - Refactor
+se lo hace fallar para luego hacerlo andar y luego ir mejorandolo
+(es una buena practica pero no se aplica nunca)
+
+Beneficios de aplicar esto:
+Mejora la calidad del codigo
+Permite una mejor refactorizacion
+Fomenta el dise;o modular
+
+
+Mockapps:
+Son objetos simulados o falsos para simular el comportamiento de componentes externos.
+
+Beneficios:
+Aislamiento de dependencias
+Control de comportamiento
+Eliminacion de dependecias externas
+
+SuperTest:
+Es una biblioteca que permite pruebas(http) de integraciond de API y servicios web
+caracteristicas:
+sintaxis sencilla
+interfaz familiar
+simulacion de solicituedes (http,post,delete,put,get)
+verificacion de respuestas
+
+Depuracion:
+Permite solucionar errores en nuestro codigo
+Console.log es una de las mas comunes
